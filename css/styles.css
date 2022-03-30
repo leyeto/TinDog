@@ -1,0 +1,177 @@
+body{
+  font-family: 'Montserrat',serif;
+  text-align: center;
+
+}
+
+h1, h2, h3, h4{
+  font-family: 'Montserrat',serif;
+  font-weight: 900;
+}
+
+p{
+  color:#8f8f8f;
+}
+
+
+/* HEADINGS Section*/
+.big-heading{
+  font-family: 'Montserrat', serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.cta-heading{
+  font-family: 'Montserrat', serif;
+  font-size: 3.0rem;
+  font-weight: 900;
+  line-height: 1;
+  margin: 0 500px;
+}
+
+.section-heading{
+  font-size: 3rem;
+  font-weight: 900;
+  font-height:1.5;
+}
+
+.container-fluid{
+  padding:6% 15%;
+}
+
+
+
+#features{
+  font-size:1.5rem;
+}
+
+.card-column{
+  padding: 2% 3%;
+}
+
+.feature-box{
+  padding: 2%;
+}
+
+.feature-title{
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+
+.iphone-img{
+transform:rotate(25deg);
+width: 25%;
+left:300px;
+position: relative;
+z-index: -1;
+}
+
+.social{
+  padding:10px;
+}
+
+/* CTA Section */
+#cta{
+  height:400px;
+  padding: 30px;
+}
+
+
+.download-button2{
+  font-family: "Montserrat",serif;
+  color: black;
+  margin: 1%;
+}
+
+@media (max-width: 1050px) {
+  #title{
+    text-align: center;
+  }
+  .iphone-img{
+    position:static;
+    transform: rotate(0);
+  }
+}
+
+/* Navigation Bar */
+.navbar{
+  padding:0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: 'Ubuntu';
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+
+#title{
+  text-align: left;
+  position: relative;
+  padding: 0 4%;
+  height: 500px;
+  z-index: -2;
+}
+
+/* Containers */
+
+#title .container-fluid{
+  padding: 3% 10% 10% 5%;
+}
+
+/* Sections */
+.colored-section{
+  background-color: #ff4c68;
+  color: white;
+}
+
+.white-section{
+  background-color: #fff;
+}
+
+/* Testimonals-Section */
+#testimonials{
+  background-color: #ef8172;
+}
+
+.testimonials-image{
+  width: 8%;
+  border-radius: 100%
+}
+
+.testimonal__text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.press-image{
+  width: 7%;
+  padding-bottom: 2%;
+  margin: 0 7% 0;
+}
+
+/* Pricing Section */
+#pricing{
+  padding: 2%;
+}
+
+.price__text{
+  font-family: 'Montserrat',serif;
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
